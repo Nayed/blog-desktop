@@ -34,9 +34,10 @@
     "gulp-util": "^3.0.7",
     "normalize.scss": "^0.1.0",
     "vinyl-source-stream": "^1.1.0",
-    "vue": "^1.0.12"
+    "pretty-bytes": "^3.0.0"
   },
   "dependencies": {
-    "pretty-bytes": "^3.0.0"
+    "vue": "^1.0.12",
+    "vue-resource": "^0.5.1"
   }
 }

@@ -9,11 +9,13 @@
     <body id="app">
         <div class="container">
             <div class="flipster">
-                <ul></ul>
+                <div v-for="post in blog">
+                    <ul>{{ post.summary }}</ul>
+                </div>
             </div>
             <div class="stats">
-                <p>{{statsOS.infoCPU}}</p>
-                <p>{{statsOS.freeRAM}}</p>
+                <p>{{ statsOS.infoCPU }}</p>
+                <p>{{ statsOS.freeRAM }}</p>
             </div>
         </div>
         <script src="../js/main.js" /></script>

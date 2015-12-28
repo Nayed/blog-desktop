@@ -24,33 +24,6 @@ a, a:visited, a:hover{
 }
 
 
-/* The cover flow slider */
-
-.flipster {
-    margin-top:120px;
-}
-
-.flipster ul li {
-    text-align: center;
-}
-
-.flipster ul li a {
-    text-align: center;
-}
-
-.flipster ul li a:after{
-    content:'oo';
-    letter-spacing: -2px;
-    font-size: 12px;
-    color:orange;
-    margin-left:5px;
-    font-weight: bold;
-}
-
-.flip-item img{
-    margin-bottom: 10px;
-}
-
 /* Stats */
 
 .stats{
